@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <title>Good Vibes</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"/>
+    <link rel="icon" href="img/LOGO_MARCA.jpg">
+</head>
+<body>
+
+    <!--Aqui começa o Header-->
+
+    <header class="max-width bg" id="Home">
+            <div class="container">
+                <nav class="menu">
+                    <div class=""></div>
+                    <div class="desktop-menu">
+                        <ul>
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">Novidades</a></li>
+                            <li><a href="#Service">Destaque</a></li>
+                            <li><a href="#Contact">Contato</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="mobile-menu" onclick="myFunction()">
+                        <i class="fa fa-bars"></i>
+                        <ul id="myLinks">
+                            <li><a href="#Home">Home</a></li>
+                            <li><a href="#About">Novidades</a></li>
+                            <li><a href="#Service">Destaque</a></li>
+                            <li><a href="#Contact">Contato</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <div class="call">
+                    <div class="left">
+                        <h1 class="color-black text-gd">Novas Coleções</h1>
+                        <p class="color-black text-pq">Explore a arte e a elegância do crochê conosco e descubra uma variedade deslumbrante de roupas artesanais que encantam os sentidos e elevam o estilo a um novo patamar.
+                         Em nosso universo de fios entrelaçados, cada peça é mais do que uma simples vestimenta; é uma expressão única de criatividade e habilidade.</p>
+                        <button>Compre Agora</button>
+                    </div>
+                    <div class="item">
+                        <img class="imagem-normal" src="img/f10_loja.jpg" alt="Imagem 1">
+                        <img class="imagem-hover" src="img/f111_loja.jpg" alt="Imagem 1 (Hover)">
+                           
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+            <button id="back-to-top">^</button>
+    </header>
+
+    <!--Aqui Termina o Header-->
+
+    <!--Aqui começa o About-->
+
+    <section class="max-width bg2" id="About">
+        <div class="container">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-1">Novidades</h2>
+                <div class="line">
+                    <div class="text-titulo">Promoção</div>
+                </div>
+            </div>
+            <div class="tg-container">
+                <div class="tg-wrapper">
+                    <div class="produto">
+                        <img class="imagem-normal" src="img/f55_resized.jpeg" alt="Imagem 1">
+                        <img class="imagem-hover" src="img/f56_resized.jpeg" alt="Imagem 1 (Hover)">
+                        <h3>Vestido</h3>
+                        <p>$39.99</p>
+                        <button onclick="window.location.href='Página-de-Compra'" class="botão-comprar">Comprar Agora</button>
+                    
+                    </div>
+                    <div class="produto">
+                        <img class="imagem-normal" src="img/f25_resized.jpeg" alt="Imagem 1">
+                        <img class="imagem-hover" src="img/f26_resized.jpeg" alt="Imagem 1 (Hover)">
+                        <h3>Vestido</h3>
+                        <p>$39.99</p>
+                        <button onclick="window.location.href='Página-de-Compra'" class="botão-comprar">Comprar Agora</button>
+                    </div>
+                    <div class="produto">
+                        <img class="imagem-normal" src="img/f36_resized.jpeg" alt="Imagem 1">
+                        <img class="imagem-hover" src="img/f35_resized.jpeg" alt="Imagem 1 (Hover)">
+                        <h3>Vestido</h3>
+                        <p>$39.99</p>
+                        <button onclick="window.location.href='Página-de-Compra'" class="botão-comprar">Comprar Agora</button>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </section>
+                   
+
+    <!--Aqui Termina o About-->
+
+    <!--Aqui começa o Service-->
+
+    <section class="max-width bg" id="Service">
+        <div class="container">
+            <div class="content">
+                <div class="titulo">
+                    <h2 class="text-md color-cinza-1">Destaque</h2>
+                    <div class="line">
+                        <div class="text-titulo">Acessórios</div>
+                    </div>
+                </div>
+                    <input type="radio" name="slider" id="item-1" checked>
+                    <input type="radio" name="slider" id="item-2">
+                    <input type="radio" name="slider" id="item-3">
+                    <div class="cards">
+                        
+                        <label class="card" for="item-1" id="song-1">
+                            <img src="img/c01_resized.jpeg" alt="">
+                            <button onclick="window.location.href='Página-de-Compra'" class="botão-comprar">Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-2" id="song-2">
+                            <img src="img/c05_resized.jpeg">
+                            <button onclick="window.location.href='Página-de-Compra'" class="botão-comprar">Comprar Agora</button>
+                        </label>
+
+                        <label class="card" for="item-3" id="song-3">
+                            <img src="img/c04_resized.jpeg">
+                            <button onclick="window.location.href='Página-de-Compra'" class="botão-comprar">Comprar Agora</button>
+                        </label>
+                    </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Terminal o Service-->
+
+    <!--Aqui Começa o Contact-->
+
+    <section class="max-width bg2" id="Contact">
+        <div class="contc">
+            <div class="titulo">
+                <h2 class="text-md color-cinza-1">Contato</h2>
+                <div class="line">
+                    <div class="text-titulo">Fale Conosco</div>
+                </div>
+            </div>
+            <div class="content">
+                <div class="left">
+                    <div class="box">
+                        <h1>Cadastro</h1>
+                        <form id="newsletterForm">
+                            <input type="text" id="fullName" placeholder="Nome Completo">
+                            <input type="email" id="email" placeholder="Seu E-mail">
+                            <!-- Adicione o evento onclick ao botão -->
+                            <input type="button" value="Inscreva-se" onclick="submitForm()">
+                        </form>
+                        <script>
+                            // Função para enviar o formulário
+                            function submitForm() {
+                                // Obtém os valores dos campos de texto e e-mail
+                                var fullName = document.getElementById("fullName").value;
+                                var email = document.getElementById("email").value;
+                        
+                                // Aqui você pode adicionar validações adicionais, se necessário
+                        
+                                // Armazena os valores localmente (opcional)
+                                localStorage.setItem("fullName", fullName);
+                                localStorage.setItem("email", email);
+                        
+                                // Aqui você pode adicionar o código para enviar os dados para o seu backend
+                              
+                                // Alerta de confirmação
+                                alert("Você foi inscrito no newsletter!");
+                        
+                                // Limpa os campos após a submissão
+                                document.getElementById("fullName").value = "";
+                                document.getElementById("email").value = "";
+                            }
+                        </script>
+                        
+                        <h1>Siga-nos</h1>
+                        <div class="social">
+                            <a href="https://www.instagram.com/g.o.o.d_v.i.b.e._" style="text-decoration: none;">
+                             <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href=""><i class="fa-brands fa-facebook"></i></a>
+                            
+                        </div>
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="box">
+                        <h1>Nosso Endereço</h1>
+                        <div class="info">
+                            <div class="icons">
+                                <i class="fa-solid fa-envelope"></i>
+                                <i class="fa-solid fa-phone"></i>
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="text">
+                                <p>victoreng040419@gmail.com</p>
+                                <p>+55(97)984066903</p>
+                                <p>SP,Brazil</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Aqui Termina o Contact-->
+
+    <!--Aqui Começa o footer-->
+
+    <footer>
+        <div class="container">
+            <img src="image/logo-roupa.png" alt="">
+            <p class="text-pq">Copyright © 2024 <span class="color-laranja">FRONT</span> All Rights Reserved</p>
+            <p class="text-pq">Tel:97984066903</p>
+        </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+
+        // Menu-Mobile
+
+       function myFunction() {
+            var x = document.getElementById("myLinks");
+            if (x.style.display === "block") {
+                x.style.display = "none";
+            } else {
+                x.style.display = "block";
+            }
+}
+        // Scrollbar Personalizado
+
+            var btn = document.querySelector("#back-to-top");
+            btn.addEventListener("click", function() {
+                window.scrollTo(0, 0);
+            });
+    </script>
+</body>
+</html>
